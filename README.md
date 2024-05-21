@@ -9,7 +9,9 @@ En liveversion av APIet finns tillgänglig på följande URL:
 
 # Installation, databas
 APIet använder sqlite3-databas.
-Klona ned källkodfilerna, kör kommando npm install för att installera nödvändiga npm-paket. Kör installations scriptet install.js. Install.js skapar databastabellen.
+-Klona ned källkodfilerna
+-kör kommando npm install för att installera nödvändiga npm-paket
+-Kör installations scriptet install.js. Install.js skapar databastabellen.
 
 ## Databastabellen
 __Tabellnamn: jobs__
