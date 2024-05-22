@@ -4,9 +4,6 @@ Repositoryt innehåller kod för ett rest api för CV skapat med express.
 
 Grundläggande funktionalitet för CRUD är implementerad. 
 
-# Länk
-En liveversion av APIet finns tillgänglig på följande URL:
-
 # Installation, databas
 APIet använder sqlite3-databas.
 - Klona ned källkodfilerna
