@@ -77,7 +77,7 @@ app.post('/cv/jobs', (req, res)=>{
         startdate: startdate,
         enddate: enddate
     };
-    res.json({work});
+    res.json({message: "Arbetet tillagt"});
 }else{
   res.status(400).json(errors);
   console.log('400'+errors);
