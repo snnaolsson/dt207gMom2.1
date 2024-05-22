@@ -11,7 +11,7 @@ const db = new sqlite3.Database("./db/cv.db");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.use(cors());
+app.use(cors()); //för att tillåta korsdomänsförfrågningar
 app.use(express.json()); //skickar datan i json-format 
 
 
